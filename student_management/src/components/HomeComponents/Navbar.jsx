@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { HiOutlineUserCircle } from "react-icons/hi";
+
+
 
 function Navbar() {
   return (
@@ -21,8 +23,8 @@ function Navbar() {
         <div className='pt-[7px]'>
                 <ul className='flex'>
                     <input className='rounded-lg pl-[8px]' placeholder='search' type="text" />
-                    <li className='p-[5px]'> notification</li>
-                    <li className='p-[5px]'> notification</li>
+                    <li className='p-[5px] w-[50px]'></li>
+                    <li className='p-[5px] w-[50px]'> <HiOutlineUserCircle /></li>
                 </ul>
                 
             </div>
