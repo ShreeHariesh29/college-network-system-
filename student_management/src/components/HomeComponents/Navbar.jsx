@@ -20,11 +20,11 @@ function Navbar() {
                 <button className='hover:bg-slate-300 rounded-lg font-semibold'><li className='p-[5px]' ><Link to="/home">HOME</Link></li>
                 </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold'><li className='p-[5px]'> 
-                <Link to="/acadamic">ACADAMIC</Link></li> </button>
+                <Link to="/academic">ACADEMIC</Link></li> </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold'><li className='p-[5px]' ><Link to="/examination">EXAMINATION</Link></li>
                 </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold'><li  className='p-[5px]'><Link to="/hostel">HOSTEL</Link></li></button>
-                <button className='hover:bg-slate-300 rounded-lg font-semibold '><li  className='p-[5px]'><Link to="/liberary">LIBERARY</Link></li></button>
+                <button className='hover:bg-slate-300 rounded-lg font-semibold '><li  className='p-[5px]'><Link to="/library">LIBRARY</Link></li></button>
             </ul>
             </div>
             
