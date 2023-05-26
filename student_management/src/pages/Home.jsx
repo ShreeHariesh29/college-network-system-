@@ -11,7 +11,6 @@ import TimeTable from '../components/HomeComponents/TimeTable'
 function Home() {
   return (
     <div>
-        <div><Navbar /></div>
         <div className='flex justify-between ml-[30px] mr-[30px] '>
           <TopAnnouncement />
           <TopAssingment />
