@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom' 
+
+
 
 function StudentLogin() {
   return (
@@ -11,8 +14,47 @@ function StudentLogin() {
         </div>
     </div>  
     <div className='h-[500px] w-[400px] bg-slate-200 rounded-l-lg'>
-    <h2 className='mt-[20px] ml-[150px] font-bold '>Student Login</h2>
-        <div className=''>
+    <h2 className='mt-[20px] ml-[100px] font-bold text-[35px]'>Student Login</h2>
+        <div className=' ml-[12px] mt-[60px]'>
+        <form class="w-full max-w-sm">
+  <div class="md:flex md:items-center mb-6 ml-[12px]">
+    <div class="md:w-1/3 ">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+        Student Name
+      </label>
+    </div>
+    <div class="md:w-[230px] ">
+      <input placeholder='Name of the student' class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 mr-[20px]" id="inline-full-name" type="text" ></input>
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-password">
+        Password
+      </label>
+    </div>
+    <div class="md:w-[230px]">
+      <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-password" type="password" placeholder="******************"></input>
+    </div>
+  </div>
+  <div class="ml-[110px] mb-6 ]">
+    <div class="md:w-1/3"></div>
+    <label class="md:w-2/3 block text-gray-500 font-bold">
+      <input class="mr-2 leading-tight" type="checkbox"></input>
+      <span class="text-sm">
+        Remember password
+      </span>
+    </label>
+  </div>
+  <div class="md:flex md:items-center mt-[40px] ml-[40px]">
+    <div class="md:w-1/3"></div>
+    <div class="md:w-2/3"> <Link to="/home"> <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+        Sign Up
+      </button></Link>
+     
+    </div>
+  </div>
+</form>
             
         </div>
         <div></div>
