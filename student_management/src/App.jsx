@@ -7,6 +7,7 @@ import Examination from './pages/Examination';
 import Hostel from './pages/Hostel';
 import Liberary from './pages/Liberary';
 import Profile from './pages/Profile';
+import Login from './pages/Login';
 
 
 
@@ -16,13 +17,14 @@ function App() {
     <BrowserRouter>
     <Navbar />
     <Routes>
+    <Route path="/" element={<Login />} />
     <Route path="/home" element={<Home/>} />
       <Route path="/examination" element={<Examination/>} />
       <Route path="/library" element={<Liberary />} />
       <Route path="/hostel" element={<Hostel/>} />
       <Route path="/academic" element={<Acadamic/>} />
       <Route path="/profile" element={<Profile />} />
-
+      
     </Routes>
     
     
