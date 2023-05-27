@@ -11,13 +11,17 @@ import Login from './pages/Login';
 
 
 
+
 function App() {
   return (
-   
+
     <BrowserRouter>
+
     <Navbar />
     <Routes>
     <Route path="/" element={<Login />} />
+    <Route path="/login" element={<Login />} />
+    
     <Route path="/home" element={<Home/>} />
       <Route path="/examination" element={<Examination/>} />
       <Route path="/library" element={<Liberary />} />
