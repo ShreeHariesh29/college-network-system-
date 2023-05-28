@@ -16,7 +16,7 @@ function Home() {
           <TopAssingment />
           <TopAttendance />
         </div>
-        <div className='flex pr-[10px]'>
+        <div className='flex justify-between mr-[30px]'>
         <div><Attendance /></div>
         <div><QuickAccess /></div>
         <div><Notice /></div>

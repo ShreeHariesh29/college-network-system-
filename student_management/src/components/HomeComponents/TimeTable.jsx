@@ -61,13 +61,13 @@ function TimeTable() {
         
       ];
   return (
-    <div className=' h-[430px] flex pb-[10px]  ml-[10px] mt-[20px]  '>
+    <div className=' h-[430px] grid grid-flow-col justify-stretch pb-[10px]  ml-[10px] mt-[20px]  '>
       <div className=' bg-white rounded-lg shadow-lg shadow-indigo-500/50 ' >
-      <div className=' text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg  w-[1300px] '>
+      <div className=' text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg  w-full '>
             Time Table
         </div>
         <div className= ''>
-        <table className='table-auto mt-[10px] ' >
+        <table className='table-auto mt-[10px] w-full' >
       <thead >
         <tr className=' shadow-lg shadow-blue-500/2 pl-[10px] ml-[10px]  '>
           <th className='py-[10px] px-[20px]'>Day</th>
