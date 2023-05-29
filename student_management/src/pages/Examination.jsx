@@ -2,7 +2,8 @@ import React from 'react'
 
 function Examination() {
   return (
-    <div className='flex '>
+    <div>
+      <div className='flex '>
       <div><img className='h-[250px] w-[300px] mt-[20px] pl-[35px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYXb7VlC1YgBNOnhPjKpuKMSiktqezTZz5A&usqp=CAU" alt="hi" />
     </div>
     <div className='w-full shadow-lg mt-[20px]'>
@@ -25,6 +26,35 @@ function Examination() {
     </div>
 
     </div>
+    <div className='flex justify-between'> 
+      <div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+    <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
+    <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
+  <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+    <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
+    <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
+  <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+    <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
+    <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
+  <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+    <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
+    <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
+  <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+    <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
+    <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
+  <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
+</div>
+</div>
+    </div>
+    
     
   )
 }
