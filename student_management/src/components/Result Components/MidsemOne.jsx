@@ -1,58 +1,54 @@
 import React from 'react'
 
-function Midsem_2() {
+function MidsemOne() {
     const timetable = [
         {
-          day: "CSE",
-          on:"CS8651/IP",
-          two:"CS891/AI",
-          three:"CS8603/DS",
-          four:"CS8602/CD",
-          five:"CS8602/DS",
+          day: "CS8581",
+          on:"IP",
+          two:"A",
+          three:"P",
         },
         {
-          day : "IT",
-          on:"CS8603/DS",
-          two:"CS8601/MC",
-          three:"CS8651/IP",
-          four:"CS8602/CD",
-          five:"CS891/AI",
+          day : "CS8592",
+          on:"DS",
+          two:"B",
+          three:"P",
         },
         {
-          day : "ECE",
-          on:"CS891/AI",
-          two:"CS8603/DS",
-          three:"CS8651/IP",
-          four:"CS8601/MC",
-          five:"HS8581-PC",
+          day : "CS8592",
+          on:"AI",
+          two:"O",
+          three:"P",
           },
           {
-            day : "MECH",
-            on:"CS891/AI",
-            two:"CS8603/DS",
-            three:"CS8651/IP",
-            four:"CS8601/MC",
-            five:"HS8581-PC",
+            day : "CS8592",
+            on:"CD",
+            two:"O",
+            three:"P",
+          },
+          {
+            day : "CS8592",
+            on:"MC",
+            two:"A",
+            three:"P",
           },
     
       ];
           
       return (
-        <div className='h-[300px] pb-[10px] ml-[10px] mt-[20px] md:flex'>
+        <div className='h-[350px] pb-[10px] ml-[500px] mt-[20px] md:flex '>
           <div className='bg-white rounded-lg  shadow-lg shadow-indigo-500/50 ' >
-          <div className='text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg '>
-                MID SEM 2
+          <div className='text-center h-[40px]  font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg '>
+                MID SEM 1
             </div>
             <div className= ''>
             <table className='table-fixed mt-[10px] tracking-wide text-sm ' >
           <thead >
             <tr className=' shadow-lg shadow-blue-500/2 pl-[10px] ml-[10px] tracking-wide text-sm  '>
-              <th className='py-[10px] px-[20px]'>Subject</th>
-              <th className='px-[35px]'>01/06/2023</th>
-              <th className='px-[35px]'>02/06/2023</th>
-              <th className='px-[35px] '>03/06/2023</th>
-              <th className='px-[35px] '>04/06/2023</th>
-              <th className='px-[35px]'>05/06/2023</th>
+              <th className='py-[10px] px-[20px]'>SUB-CODE</th>
+              <th className='px-[35px]'>SUBJECTS</th>
+              <th className='px-[35px]'>GRADE</th>
+              <th className='px-[35px] '>RESULT</th>
               
             </tr>
             </thead>
@@ -82,4 +78,4 @@ function Midsem_2() {
       )
 }
 
-export default Midsem_2
+export default MidsemOne
