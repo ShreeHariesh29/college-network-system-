@@ -2,17 +2,17 @@ import React from 'react'
 
 function Photo() {
   return (
-    <div className='bg-slate-200 pt-[2px] pb-[2px] flex h-screen '>
+    <div className='bg-slate-200 pt-[2px] pb-[2px] md:flex h-screen '>
     <div className='mt-[15px] w-1/4 mr-[10px]'>
-    <div className='h-[350px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl  ml-[15px]'> 
-   <img className='h-[150px] pt-[10px] pl-[35px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYXb7VlC1YgBNOnhPjKpuKMSiktqezTZz5A&usqp=CAU" alt="hi" />
+    <div className='h-[350px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl  ml-[15px] tracking-wide text-sm'> 
+   <img className=' grid justify-items-center h-[150px] pt-[10px] ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYXb7VlC1YgBNOnhPjKpuKMSiktqezTZz5A&usqp=CAU" alt="hi" />
    <h1 className='pt-[10px] font-black text-2xl font-serif text-center'> Mai-San</h1>
     <h2 className='mt-[10px] ml-[15px] font-bold font-serif '>DEPARTMENT<span className='font-medium font-sans'> : CSE</span></h2>
     <h2 className='mt-[10px] ml-[15px] font-bold font-serif'>YEAR<span className='font-medium font-sans pl-[77px]'> : III</span></h2>
     <h2 className='mt-[10px] ml-[15px] font-bold font-serif'>SEMESTER<span className='font-medium pl-[34px] font-sans'>: 06</span></h2>
     <h2 className='mt-[10px] ml-[15px] font-bold font-serif'>BATCH<span className='font-medium pl-[69px] font-sans'>: 2020-2024</span></h2>
 </div>
-<div className='h-[210px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl mt-[25px] ml-[15px]'>
+<div className='h-[210px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl mt-[25px] ml-[15px] tracking-wide text-sm'>
         <h1 className='mt-[10px] text-center font-black text-2xl font-serif'>SOCIAL HUB</h1>
         <h2 className='pl-[10px] font-bold font-serif mt-[15px] '> G-MAIL <span className='font-sans font-medium pl-[35px]'>: guhanramu1203@gmail.com</span></h2>
         <h2 className='pl-[10px] font-bold font-serif mt-[15px]'> GITHUB<span className='font-sans font-medium pl-[35px]'>: GUHAN1203</span></h2>        
@@ -21,7 +21,7 @@ function Photo() {
 
     </div>
    <div className='w-3/4 mr-[30px]'>
-   <div className='h-[580px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl mt-[15px] ml-[15px]'>
+   <div className='h-[580px] w-full shadow-lg drop-shadow-2xl bg-white shadow-gray-500 border-2 rounded-2xl mt-[15px] ml-[15px] tracking-wide text-sm '>
         <h1 className='mt-[20px] text-center font-black text-2xl font-serif'>STUDENT'S DETAILS</h1>
         <h2 className='pl-[20px] font-bold font-serif text-sm mt-[20px] '>FULL NAME <span className='font-sans font-medium pl-[75px]'>:  MAI SAN</span></h2>
         <h2 className='pl-[20px] font-bold font-serif text-sm mt-[20px]'>ROLL NUMBER<span className='font-sans font-medium pl-[55px]'>: 20JITCS203</span></h2>        
