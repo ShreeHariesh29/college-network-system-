@@ -61,7 +61,7 @@ function TimeTable() {
         
       ];
   return (
-    <div className=' h-[430px] w-full pb-[10px]  ml-[10px] mt-[20px] md:flex  '>
+    <div className=' h-[400px] w-full pb-[10px]  ml-[10px] mt-[20px] md:flex  '>
       <div className=' bg-white rounded-lg shadow-lg shadow-indigo-500/50 w-3/4 ' >
       <div className=' text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg  w-full '>
             Time Table
@@ -103,7 +103,7 @@ function TimeTable() {
         </div>
 
       </div>
-      <div className='h-[420px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 w-full mr-[15px] ' >
+      <div className='h-[390px] pb-[10px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 w-1/4 mr-[15px] ' >
       <div className='text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg mb-[20px]  '>
           Circular
         </div>

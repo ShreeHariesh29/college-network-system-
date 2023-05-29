@@ -31,11 +31,11 @@ function Navbar() {
             </div>
             
         </nav>
-        <div className='pt-[7px]'>
+        <div className='pt-[7px] pb-[8px]'>
                 <ul className='flex'>
                     <input className='rounded-lg pl-[8px]' placeholder='search' type="text" />
                     <li className='p-[5px] w-[50px]'></li>
-                    <li className='p-[5px] w-[70px]'> <Link to="/profile">PROFILE</Link> </li>
+                    <li className='p-[5px] w-[70px]'> <Link to="/profile"><img src="/images/profile.png" alt="" /></Link> </li>
                 </ul>
                 
             </div>
