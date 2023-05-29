@@ -1,4 +1,8 @@
 import React from 'react'
+import Midsem_1 from '../components/Examination Components/Midsem_1'
+import Midsem_2 from '../components/Examination Components/Midsem_2'
+import Model from '../components/Examination Components/Model'
+import Semester from '../components/Examination Components/Semester'
 
 function Examination() {
   return (
@@ -28,6 +32,7 @@ function Examination() {
     </div>
     <div className='flex justify-between'> 
       <div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+<<<<<<< HEAD
     <div><img className="h-[40px] w-[40px] mt-2 ml-2"src="https://cdn-icons-png.flaticon.com/512/273/273491.png" alt="" /></div>
     <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
   <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
@@ -52,6 +57,26 @@ function Examination() {
     <div className='pt-1 pl-[20px] text-[30px]'><b>00</b></div>
   <div><h1 className='pt-4 pl-[20px]'>ANNOUNCEMENT</h1></div>
 </div>
+=======
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 1</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 2</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MODEL</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>SEMESTER</h1></div>
+</div>
+
+</div>
+<div>
+<Midsem_1 />
+<Midsem_2 />
+<Model />
+<Semester />
+>>>>>>> 6c13fa322921b8817ba135b6918aa4e59189eb8c
 </div>
     </div>
     
