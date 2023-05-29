@@ -10,22 +10,25 @@ import TimeTable from '../components/HomeComponents/TimeTable'
 
 function Home() {
   return (
-    <div>
-        <div className='flex justify-between ml-[30px] mr-[30px] '>
+    <div className=''>
+
+      <div className=' md:flex mx-auto justify-between ml-[30px] mr-[30px]   '>
           <TopAnnouncement />
           <TopAssingment />
           <TopAttendance />
         </div>
-        <div className='flex pr-[10px]'>
+
+        
+        <div className='md:flex justify-between mr-[30px] full'>
         <div><Attendance /></div>
         <div><QuickAccess /></div>
         <div><Notice /></div>
         </div>
-        <div><TimeTable /></div>
+        <div className=''><TimeTable /></div>
         
     </div>
     
   )
 }
 
-export default Home
+export default Home

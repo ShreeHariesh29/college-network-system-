@@ -61,15 +61,15 @@ function TimeTable() {
         
       ];
   return (
-    <div className=' h-[430px] flex pb-[10px]  ml-[10px] mt-[20px]  '>
-      <div className=' bg-white rounded-lg shadow-lg shadow-indigo-500/50 ' >
-      <div className=' text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg  w-[1300px] '>
+    <div className=' h-[400px] w-full pb-[10px]  ml-[10px] mt-[20px] md:flex  '>
+      <div className=' bg-white rounded-lg shadow-lg shadow-indigo-500/50 w-3/4 ' >
+      <div className=' text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg  w-full '>
             Time Table
         </div>
         <div className= ''>
-        <table className='table-auto mt-[10px] ' >
+        <table className='table-fixed mt-[10px] w-full tracking-wide text-sm ' >
       <thead >
-        <tr className=' shadow-lg shadow-blue-500/2 pl-[10px] ml-[10px]  '>
+        <tr className=' shadow-lg shadow-blue-500/2 pl-[10px] ml-[10px] tracking-wide text-sm  '>
           <th className='py-[10px] px-[20px]'>Day</th>
           <th className='px-[35px]'>Lectures</th>
           <th className='px-[35px]'>Percentage</th>
@@ -83,7 +83,7 @@ function TimeTable() {
         </tr>
         </thead>
       
-      <tbody>
+      <tbody className='tracking-wide text-sm'>
         {timetable.map((item) => (
           <tr key={item.day} className='text-center'>
             <td className='font-bold '>{item.day} </td>
@@ -103,8 +103,8 @@ function TimeTable() {
         </div>
 
       </div>
-      <div className='h-[420px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 ' >
-      <div className='text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg w-[560px] mb-[20px]  '>
+      <div className='h-[390px] pb-[10px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 w-1/4 mr-[15px] ' >
+      <div className='text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg mb-[20px]  '>
           Circular
         </div>
       <div className='bg-white  '>

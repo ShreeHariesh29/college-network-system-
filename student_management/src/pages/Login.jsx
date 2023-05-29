@@ -6,7 +6,7 @@ function Login() {
     
     <div>
       <div><img className='w-full h-[100px]' src="https://www.jeppiaarinstitute.org/img/jplogo.gif" alt="" /><div>
-        <div>
+        <div className='content-center'>
           <StudentLogin />
         </div>
     
