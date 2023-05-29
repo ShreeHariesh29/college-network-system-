@@ -103,7 +103,7 @@ function TimeTable() {
         </div>
 
       </div>
-      <div className='h-[420px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 w-full mr-[15px] ' >
+      <div className='h-[420px] bg-white ml-[20px] rounded-lg shadow-lg shadow-indigo-500/50 w-1/4 mr-[15px] ' >
       <div className='text-center h-[40px] font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg mb-[20px]  '>
           Circular
         </div>
