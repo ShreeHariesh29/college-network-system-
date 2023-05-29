@@ -6,6 +6,5 @@ function Midsem_1() {
       Midsem_1
     </div>
   )
-}
 
 export default Midsem_1
