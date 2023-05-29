@@ -1,13 +1,21 @@
 import React from 'react'
+import StudentLogin from '../components/Login Components/StudentLogin'
 
 function Login() {
   return (
-    <div><img className='w-full h-[800px]' src="./student_management/src/assets/images/college image.webp" alt="" />
+    
     <div>
-        Login
+      <div><img className='w-full h-[100px]' src="https://www.jeppiaarinstitute.org/img/jplogo.gif" alt="" /><div>
+        <div className='content-center'>
+          <StudentLogin />
+        </div>
+    
     </div>
     
     </div>
+
+    </div>
+    
   )
 }
 
