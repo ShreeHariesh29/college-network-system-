@@ -1,6 +1,6 @@
 import React from 'react'
-import Midsem_1 from '../components/Examination Components/Midsem_1'
-import Midsem_2 from '../components/Examination Components/Midsem_2'
+import MidsemOne from '../components/Examination Components/MidsemOne'
+import Midsemtwo from '../components/Examination Components/Midsemtwo'
 import Model from '../components/Examination Components/Model'
 import Semester from '../components/Examination Components/Semester'
 
@@ -46,8 +46,8 @@ function Examination() {
 
 </div>
 <div>
-<Midsem_1 />
-<Midsem_2 />
+<MidsemOne />
+<Midsemtwo />
 <Model />
 <Semester />
 </div>
