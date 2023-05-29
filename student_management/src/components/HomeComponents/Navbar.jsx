@@ -25,7 +25,7 @@ function Navbar() {
                 <Link to="/academic">ACADEMIC</Link></li> </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[4px]'><li className='p-[5px]' ><Link to="/examination">EXAMINATION</Link></li>
                 </button>
-                <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px]'><li  className='p-[5px]'><Link to="/hostel">HOSTEL</Link></li></button>
+                <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px]'><li  className='p-[5px]'><Link to="/result">RESULT</Link></li></button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px] '><li  className='p-[5px]'><Link to="/library">LIBRARY</Link></li></button>
             </ul>
             </div>
