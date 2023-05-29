@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Photo from '../components/Profile Components/Photo'
 function Profile() {
   return (
-    <div>Profile</div>
+    <div>
+      <Photo /></div>
   )
 }
 
-export default Photo
+export default Profile
