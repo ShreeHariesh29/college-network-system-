@@ -1,4 +1,8 @@
 import React from 'react'
+import Midsem_1 from '../components/Examination Components/Midsem_1'
+import Midsem_2 from '../components/Examination Components/Midsem_2'
+import Model from '../components/Examination Components/Model'
+import Semester from '../components/Examination Components/Semester'
 
 function Examination() {
   return (
@@ -39,6 +43,13 @@ function Examination() {
 <div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
   <div><h1 className='font-bold pt-4 pl-[100px]'>SEMESTER</h1></div>
 </div>
+
+</div>
+<div>
+<Midsem_1 />
+<Midsem_2 />
+<Model />
+<Semester />
 </div>
     </div>
     
