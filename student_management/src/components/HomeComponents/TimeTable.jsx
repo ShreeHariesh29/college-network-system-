@@ -38,7 +38,7 @@ function TimeTable() {
           },
           {
             day : "Thursday",
-            on:"",
+            on:"hhhh",
             two:"bb",
             three:"ss",
             four:"ee",

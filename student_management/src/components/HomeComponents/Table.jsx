@@ -37,7 +37,7 @@ function Table() {
 
   return (
     <div>
-        <table className='table-auto mt-[10px] ' >
+        <table className='table-auto mt-[10px]  ' >
       <thead >
         <tr className=' shadow-lg shadow-blue-500/2 '>
           <th className=''>Subject</th>

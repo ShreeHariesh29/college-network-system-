@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/HomeComponents/Navbar'
+
 import Attendance from '../components/HomeComponents/Attendance'
 import QuickAccess from '../components/HomeComponents/QuickAccess'
 import Notice from '../components/HomeComponents/Notice.jsx'
