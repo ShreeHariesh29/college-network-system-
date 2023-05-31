@@ -29,10 +29,10 @@ function Results() {
   </div>
   <nav className='w-full border-4 mt-[30px] shadow-lg'>
     <ul className='flex justify-around p-[20px] font-bold group '>
-      <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><Link to="/result/"><li className=' group-hover:stroke-white hover:text-white  text-sm'>MID SEM 1</li></Link></button>
-      <button  className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg '><Link to="/result/midtworesult"><li className='hover:text-white  text-sm'>MID SEM 1</li></Link></button>
-      <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><Link to="/result/modelresult"><li className='hover:text-white  text-sm'>MID SEM 1</li></Link></button>
-      <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><Link to="/result/semresult"><li className='hover:text-white  text-sm'>SEMESTER </li></Link></button>
+    <Link to="/result/"><button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><li className=' group-hover:stroke-white hover:text-white  text-sm'>MID SEM 1</li></button></Link>
+    <Link to="/result/midtworesult"><button  className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg '><li className='hover:text-white  text-sm'>MID SEM 1</li></button></Link>
+    <Link to="/result/modelresult"><button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><li className='hover:text-white  text-sm'>MID SEM 1</li></button></Link>
+    <Link to="/result/semresult"><button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg border-2 shadow-lg'><li className='hover:text-white  text-sm'>SEMESTER </li></button></Link>
 
       
     </ul>
