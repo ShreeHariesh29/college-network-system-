@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link, Outlet } from 'react-router-dom';
+
 
 function Examination() {
   return (
@@ -26,22 +28,17 @@ function Examination() {
     </div>
 
     </div>
-    <div className='flex justify-between'> 
-      <div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
-  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 1</h1></div>
-</div>
-<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
-  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 2</h1></div>
-</div>
-<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
-  <div><h1 className='font-bold pt-4 pl-[100px]'>MODEL</h1></div>
-</div>
-<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
-  <div><h1 className='font-bold pt-4 pl-[100px]'>SEMESTER</h1></div>
-</div>
+    <nav className='w-full border-4 mt-[30px] shadow-lg'>
+      <ul className='flex justify-around p-[20px] font-bold group '>
+        <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><Link to="/examination/"><li className=' hover:text-white  text-sm'>MID SEM 1</li></Link></button>
+        <button  className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><Link to="/examination/midtwotable"><li className=' hover:text-white  text-sm'>MID SEM 2</li></Link></button>
+        <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><Link to="/examination/modeltable"><li className='hover:text-white  text-sm'>MODEL</li></Link></button>
+        <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><Link to="/examination/semtable"><li className='hover:text-white  text-sm'>SEMESTER </li></Link></button>
 
-</div>
-
+        
+      </ul>
+    </nav>
+    <Outlet />
     </div>
     
     

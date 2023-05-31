@@ -60,7 +60,7 @@ function SemResult() {
       ];
           
       return (
-        <div className='h-[550px] pb-[10px] ml-[500px] mt-[20px] md:flex '>
+        <div className='h-[550px] pb-[10px]  mt-[20px] md:flex justify-center '>
           <div className='bg-white rounded-lg  shadow-lg shadow-indigo-500/50 ' >
           <div className='text-center h-[40px]  font-semibold text-xl pt-[4px] bg-neutral-700 text-white rounded-lg '>
                 SEMESTER

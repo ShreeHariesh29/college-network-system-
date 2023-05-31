@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Acadamic from './pages/Acadamic';
 import Examination from './pages/Examination';
 import Hostel from './pages/Hostel';
+import Results from './pages/Results';
 import Liberary from './pages/Results';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
@@ -32,7 +33,7 @@ function App() {
     
     <Route path="/home" element={<Home/>} />
     <Route path="/examination" element={<Examination/>}>
-      <Route path="/examination/midonetable" element={<MidOneTable />} />
+      <Route path="/examination/" element={<MidOneTable />} />
       <Route path="/examination/midtwotable" element={<MidTwoTable />} />
       <Route path="/examination/modeltable" element={<ModelTable />} />
       <Route path="/examination/semtable" element={<SemTable />} />
@@ -41,6 +42,12 @@ function App() {
       <Route path="/hostel" element={<Hostel/>} />
       <Route path="/academic" element={<Acadamic/>} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/result" element={<Results />}>
+      <Route path="/result/" element={<MidOneResult />} />
+      <Route path="/result/midtworesult" element={<MidTwoResults />} />
+      <Route path="/result/modelresult" element={<ModelResult />} />
+      <Route path="/result/semresult" element={<SemResult />} />
+      </Route>
       
     </Routes>
     
