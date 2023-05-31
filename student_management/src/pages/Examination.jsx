@@ -2,7 +2,8 @@ import React from 'react'
 
 function Examination() {
   return (
-    <div className='flex '>
+    <div>
+      <div className='flex '>
       <div><img className='h-[250px] w-[300px] mt-[20px] pl-[35px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYXb7VlC1YgBNOnhPjKpuKMSiktqezTZz5A&usqp=CAU" alt="hi" />
     </div>
     <div className='w-full shadow-lg mt-[20px]'>
@@ -25,6 +26,24 @@ function Examination() {
     </div>
 
     </div>
+    <div className='flex justify-between'> 
+      <div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 1</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MID SEM 2</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>MODEL</h1></div>
+</div>
+<div className='flex border-2 h-[60px] w-[300px] shadow-lg bg-white  rounded-lg mt-[30px] '>
+  <div><h1 className='font-bold pt-4 pl-[100px]'>SEMESTER</h1></div>
+</div>
+
+</div>
+
+    </div>
+    
     
   )
 }

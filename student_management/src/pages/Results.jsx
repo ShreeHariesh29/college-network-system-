@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Liberary() {
+function Results() {
   return (
     <div>Liberary</div>
   )
 }
 
-export default Liberary
+export default Results

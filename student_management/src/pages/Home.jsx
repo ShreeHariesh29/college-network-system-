@@ -8,6 +8,7 @@ import TopAssingment from '../components/HomeComponents/TopAssingment'
 import TopAttendance from '../components/HomeComponents/TopAttendance'
 import TimeTable from '../components/HomeComponents/TimeTable'
 
+
 function Home() {
   return (
     <div className=''>
