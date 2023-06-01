@@ -28,8 +28,8 @@ function Examination() {
     </div>
 
     </div>
-    <nav className='w-full border-4 mt-[30px] shadow-lg'>
-      <ul className='flex justify-around p-[20px] font-bold group '>
+    <nav className='w-full border-4 mt-[30px] shadow-lg '>
+      <ul className='md:flex justify-around p-[20px] font-bold group '>
       <Link to="/examination/"><button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><li className=' hover:text-white  text-sm'>MID SEM 1</li></button></Link>
       <Link to="/examination/midtwotable">  <button  className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><li className=' hover:text-white  text-sm'>MID SEM 2</li></button></Link>
       <Link to="/examination/modeltable">  <button className='w-[300px] h-[60px]  hover:bg-slate-800 active:bg-slate-200 focus:outline-none focus:ring focus:ring-slate-800 rounded-lg  border-2 shadow-lg'><li className='hover:text-white  text-sm'>MODEL</li></button></Link>
