@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiOutlineUserCircle } from "react-icons/hi";
 import { Link } from 'react-router-dom';
 
 
@@ -21,12 +20,10 @@ function Navbar() {
             <ul className='flex pt-[6px] pl-[10px]'>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold'><li className='p-[5px]' ><Link to="/home">HOME</Link></li>
                 </button>
-                <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[4px]'><li className='p-[5px]'> 
-                <Link to="/academic">ACADEMIC</Link></li> </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[4px]'><li className='p-[5px]' ><Link to="/examination">EXAMINATION</Link></li>
                 </button>
                 <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px]'><li  className='p-[5px]'><Link to="/result">RESULT</Link></li></button>
-                <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px] '><li  className='p-[5px]'><Link to="/library">LIBRARY</Link></li></button>
+                <button className='hover:bg-slate-300 rounded-lg font-semibold pl-[5px] '><a href="https://ndl.iitkgp.ac.in/"><li  className='p-[5px]'><Link to="/library">LIBRARY</Link></li></a></button>
             </ul>
             </div>
             
