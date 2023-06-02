@@ -29,11 +29,15 @@ function Navbar() {
             </div>
             
         </nav>
-        <div className='pt-[5px] '>
+        <div className=' '>
                 <ul className='flex'>
-                    <input className='rounded-lg pl-[8px]' placeholder='search' type="text" />
-                    <li className='w-[70px]'></li>
-                    <li className=' w-[70px]'> <Link to="/profile"><img src="/images/profile.png" alt="" /></Link> </li>
+                    <input className='rounded-lg pl-[10px] mt-[8px] ' placeholder='search' type="text" />
+
+                    <div class="relative w-[50px] h-[40px] pl-[15px] pt-[3px] mr-[10px]">
+                    <Link to="/profile"><img class="rounded-full border border-gray-100 shadow-sm" src="images/lana.png" alt="user image" /> </Link>
+                      <div class="absolute top-0 right-0 h-2 w-2 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
+                    </div>
+                    
                 </ul>
                 
             </div>

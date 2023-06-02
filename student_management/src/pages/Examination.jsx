@@ -6,7 +6,7 @@ function Examination() {
   return (
     <div>
       <div className='flex '>
-      <div><img className='h-[250px] w-[300px] mt-[20px] pl-[35px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYXb7VlC1YgBNOnhPjKpuKMSiktqezTZz5A&usqp=CAU" alt="hi" />
+      <div><img className='h-[250px] w-[300px] mt-[20px] pl-[35px]' src=" images/lana.png" alt="hi" />
     </div>
     <div className='w-full shadow-lg mt-[20px]'>
       <div>

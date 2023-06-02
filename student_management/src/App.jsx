@@ -6,7 +6,6 @@ import Acadamic from './pages/Acadamic';
 import Examination from './pages/Examination';
 import Hostel from './pages/Hostel';
 import Results from './pages/Results';
-import Liberary from './pages/Results';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
 import MidOneTable from './components/Examination components/MidOneTable';
@@ -38,7 +37,6 @@ function App() {
       <Route path="/examination/modeltable" element={<ModelTable />} />
       <Route path="/examination/semtable" element={<SemTable />} />
     </Route>
-      <Route path="/library" element={<Liberary />} />
       <Route path="/hostel" element={<Hostel/>} />
       <Route path="/academic" element={<Acadamic/>} />
       <Route path="/profile" element={<Profile />} />
